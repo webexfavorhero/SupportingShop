@@ -1,0 +1,30 @@
+<%- include header.ejs %>
+<div class="container">
+    <div>
+        <h2 style="display: inline-block;">Shopper Home</h2>
+        <a class="btn btn-success" href="/shopper/lists/completed" style="float: right; margin-top: 20px;">Completed Shopping Lists<i class="glyphicon glyphicon-arrow-right" style="margin-left: 10px;"></i></a>
+    </div>
+    <p>This shows a list of shopping lists that have been assigned to you. This displays only shopping lists that have not been delivered</p>
+    <div class="table-responsive">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Shop Title</th>
+                <th>Item Count</th>
+                <th>Ordered Date</th>
+                <th>Delivery Date</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <% _.each(deliveries, function(delivery) { %>
+            <tr onclick="location.href='/shopper/lists/<%= delivery.deliveryId %>'" style="cursor: pointer;">
+                <td><%= delivery.shopTitle %></td>
+                <td><%= delivery.itemCount %></td>
+                <td><%= delivery.orderedDate %></td>
+                <td><%= delivery.deliveredDate %></td>
+            </tr>
+            <% }) %>
+        </tbody>
+    </table>
+    </div>
+</div>

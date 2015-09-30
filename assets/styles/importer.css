@@ -1,0 +1,33 @@
+/* Strip the ul of padding and list styling */
+.rp-menu {
+    margin: 20px;
+}
+
+/**
+ *
+ * page: shopper / index.ejs
+ */
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
