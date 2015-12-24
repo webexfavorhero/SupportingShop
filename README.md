@@ -1,6 +1,6 @@
 # Server App For Mobile Application
 
-Soft Future ltd. Core Founder Lazar Kolarov(lazar.kolarov33@hotmail.com) Urosevich Bob (topurosevich@gmail.com), CEO Jan Lada (jan.lada415@hotmail.com)
+Soft Future ltd. Core Founder Lazar Kolarov(lazar.kolarov33@hotmail.com) Urosevich Bob (topurosevich@gmail.com), CEO Adrien Robbe(adrien.robbe@hotmail.com)
 
 a [Nodejs](https://nodejs.org),  [Sails](http://sailsjs.org) based application for the Sourced App server
 
